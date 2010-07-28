@@ -1,0 +1,57 @@
+
+Declarative API for XML
+===================================================
+Ryan Cox
+ryan.a.cox@gmail.com - http://www.asciiarmor.com
+===================================================
+
+Inspired by XSLTO, I’ve put together a bit of code to allow XSLT like tranformations from within Java. DAX glues together Java 5 annotations, Jaxen XPath and DOM4J to make possible the declarative style of processing shown below.
+
+
+public class BindingTransform extends Transformer {
+
+    public List items = new ArrayList();
+    private RSSItem currentItem;
+
+    public BindingTransform() {
+        // tell engine about anticipated namespace
+        setNamespace("dc", "http://purl.org/dc/elements/1.1/");
+    }
+
+    public void init() {
+        items.clear();
+    }
+
+    public void complete() {
+        for (RSSItem i : items) {
+            System.out.println(i.getTitle());
+        }
+    }
+
+    @Path("//item")
+    public void item(Node node) {
+        currentItem = new RSSItem();
+        items.add(currentItem);
+        applyTemplates(node);
+    }
+
+    @Path("item/title")
+    public void title(Node node) {
+        currentItem.setTitle(node.getStringValue());
+    }
+
+    @Path("item/link")
+        public void link(Node node) {
+        currentItem.setLink(node.getStringValue());
+    }
+
+    @Path("item/description")
+    public void description(Node node) {
+        currentItem.setDescription(node.getStringValue());
+    }
+
+    @Path("item/dc:creator")
+    public void creator(Node node) {
+        currentItem.setCreator(node.getStringValue());
+    }
+}

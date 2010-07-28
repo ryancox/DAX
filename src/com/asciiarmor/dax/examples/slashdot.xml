@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://slashdot.org/">
+<title>Slashdot: </title>
+<link>http://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 1997-2004, OSTG - Open Source Technology Group, Inc.  All Rights Reserved.</dc:rights>
+<dc:date>2005-03-03T04:00:06+00:00</dc:date>
+<dc:publisher>OSTG</dc:publisher>
+<dc:creator>pater@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://slashdot.org/article.pl?sid=05/03/03/0316245&amp;from=rss" />
+  <rdf:li rdf:resource="http://it.slashdot.org/article.pl?sid=05/03/03/0145221&amp;from=rss" />
+  <rdf:li rdf:resource="http://slashdot.org/article.pl?sid=05/03/02/2332240&amp;from=rss" />
+  <rdf:li rdf:resource="http://it.slashdot.org/article.pl?sid=05/03/02/2314234&amp;from=rss" />
+  <rdf:li rdf:resource="http://slashdot.org/article.pl?sid=05/03/02/239252&amp;from=rss" />
+  <rdf:li rdf:resource="http://science.slashdot.org/article.pl?sid=05/03/02/2231215&amp;from=rss" />
+  <rdf:li rdf:resource="http://yro.slashdot.org/article.pl?sid=05/03/02/215205&amp;from=rss" />
+  <rdf:li rdf:resource="http://linux.slashdot.org/article.pl?sid=05/03/02/201216&amp;from=rss" />
+  <rdf:li rdf:resource="http://ask.slashdot.org/article.pl?sid=05/02/23/2012230&amp;from=rss" />
+  <rdf:li rdf:resource="http://books.slashdot.org/article.pl?sid=05/03/02/1854241&amp;from=rss" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://images.slashdot.org/topics/topicslashdot.gif" />
+<textinput rdf:resource="http://slashdot.org/search.pl" />
+</channel>
+
+<image rdf:about="http://images.slashdot.org/topics/topicslashdot.gif">
+<title>Slashdot: </title>
+<url>http://images.slashdot.org/topics/topicslashdot.gif</url>
+<link>http://slashdot.org/</link>
+</image>
+
+<item rdf:about="http://slashdot.org/article.pl?sid=05/03/03/0316245&amp;from=rss">
+<title>Star Wars Sith Trailer and the O.C.</title>
+<link>http://slashdot.org/article.pl?sid=05/03/03/0316245&amp;from=rss</link>
+<description>williamw83 writes "CNN is reporting that the Star Wars Episode III: Revenge of the Sith trailer will make its debut during none other than Fox's "The O.C." The article is candid in pointing out that 'as an avid superhero fan, Seth Cohen, the main character of "The O.C." played by Adam Brody, would likely relish the event.' The trailer will air during the March 10 episode, at sometime between 8 and 9PM EST. The article also makes note for those not wishing to tune into the TV drama that "the new trailer will be released in movie theaters beginning March 11.""</description>
+<dc:creator>samzenpus</dc:creator>
+<dc:date>2005-03-03T03:52:00+00:00</dc:date>
+<dc:subject>starwars</dc:subject>
+<slash:department>jedi-dreaming</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:hitparade>11,8,5,3,0,0,0</slash:hitparade>
+<slash:comments>11</slash:comments>
+</item>
+
+<item rdf:about="http://it.slashdot.org/article.pl?sid=05/03/03/0145221&amp;from=rss">
+<title>Virginia Court Overturns Spammer Convictions</title>
+<link>http://it.slashdot.org/article.pl?sid=05/03/03/0145221&amp;from=rss</link>
+<description>EvilStein writes "CNN reports that "A judge dismissed a felony spamming conviction that had been called one of the first of its kind, saying he found no "rational basis" for the verdict and wondering if jurors were confused by technical evidence." Legal groundwork being set? Will other convicted spammers now have grounds for an appeal?"</description>
+<dc:creator>samzenpus</dc:creator>
+<dc:date>2005-03-03T02:40:00+00:00</dc:date>
+<dc:subject>spam</dc:subject>
+<slash:department>free-to-spam</slash:department>
+<slash:section>it</slash:section>
+<slash:hitparade>99,89,58,40,15,6,3</slash:hitparade>
+<slash:comments>99</slash:comments>
+</item>
+
+<item rdf:about="http://slashdot.org/article.pl?sid=05/03/02/2332240&amp;from=rss">
+<title>Google Calendar Coming Soon?</title>
+<link>http://slashdot.org/article.pl?sid=05/03/02/2332240&amp;from=rss</link>
+<description>mcpastore writes "Blogs have recently been buzzing over the possibility of seeing a Google Calendar popping up soon. Dave bases his prediction on the fact that one of his sites has been getting a tremendous amount of hits from GoogleBot ever since he added the iCal calendar. It makes perfect sense Google would try to go after the calendar market as it is their last big missing piece of the portal puzzle."</description>
+<dc:creator>samzenpus</dc:creator>
+<dc:date>2005-03-03T01:40:00+00:00</dc:date>
+<dc:subject>google</dc:subject>
+<slash:department>more-google-for-my-google</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:hitparade>159,159,124,81,34,17,9</slash:hitparade>
+<slash:comments>159</slash:comments>
+</item>
+
+<item rdf:about="http://it.slashdot.org/article.pl?sid=05/03/02/2314234&amp;from=rss">
+<title>New Vulnerabilities Discovered in Firefox 1.0</title>
+<link>http://it.slashdot.org/article.pl?sid=05/03/02/2314234&amp;from=rss</link>
+<description>jflint writes "Today, the security firm Secunia has released 8 more security vulnerabilities it has discovered in Mozilla products, including Firefox and Thunderbird. The exploits "could be used by criminals to spoof, or fake, various aspects of a Web site, ranging from its SSL secure site icon to the contents of an inactive tab.""</description>
+<dc:creator>samzenpus</dc:creator>
+<dc:date>2005-03-03T00:46:00+00:00</dc:date>
+<dc:subject>mozilla</dc:subject>
+<slash:department>protect-yourself-at-all-times</slash:department>
+<slash:section>it</slash:section>
+<slash:hitparade>238,227,147,88,41,29,19</slash:hitparade>
+<slash:comments>238</slash:comments>
+</item>
+
+<item rdf:about="http://slashdot.org/article.pl?sid=05/03/02/239252&amp;from=rss">
+<title>Sony Ericsson Announces First  Walkman Phone</title>
+<link>http://slashdot.org/article.pl?sid=05/03/02/239252&amp;from=rss</link>
+<description>jonknee writes "Sony Ericsson has announced the first in a new line of self-described "Walkman phones" that specialize in playing music. The W800i features a 512MB memory card to store tunes and up to 30 hours of playback (if you keep the phone off, otherwise about half that). We should see a Motorola phone with iTunes onboard within the next two weeks, making March the month of music phones."</description>
+<dc:creator>samzenpus</dc:creator>
+<dc:date>2005-03-02T23:57:00+00:00</dc:date>
+<dc:subject>music</dc:subject>
+<slash:department>all-in-one</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:hitparade>139,134,103,66,23,11,7</slash:hitparade>
+<slash:comments>139</slash:comments>
+</item>
+
+<item rdf:about="http://science.slashdot.org/article.pl?sid=05/03/02/2231215&amp;from=rss">
+<title>Double-Slit Experiment in Time, Not Space</title>
+<link>http://science.slashdot.org/article.pl?sid=05/03/02/2231215&amp;from=rss</link>
+<description>TheMatt writes "Thomas Young's double-slit experiment is a classic experiment that helped establish the wave-like nature of light. Since then, it has been done with atoms, buckyballs, and biomolecules. It has even been seen in a single molecule, and the single electron version was voted the most beautiful experiment by Physics World readers (covered previously on Slashdot). Now, PhysicsWeb is reporting that Gerhard Paulus and coworkers have conducted the double-slit experiment using a double-slit in time, not space. The "slit" was a crafted femtosecond pulse consisting of one-and-a-half cycles--say, two maxima and one minima--passed through an argon gas. Each maxima has a probability of ionizing an argon atom and producing an electron. The electrons were accelerated to a detector which observed an interference pattern since the detector had no idea which maximum produced the electron."</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2005-03-02T23:04:00+00:00</dc:date>
+<dc:subject>science</dc:subject>
+<slash:department>that-young-guy-did-a-bunch-of-stuff</slash:department>
+<slash:section>science</slash:section>
+<slash:hitparade>284,275,195,133,51,33,22</slash:hitparade>
+<slash:comments>284</slash:comments>
+</item>
+
+<item rdf:about="http://yro.slashdot.org/article.pl?sid=05/03/02/215205&amp;from=rss">
+<title>Appeals Court Sends Eolas Case Back For New Trial</title>
+<link>http://yro.slashdot.org/article.pl?sid=05/03/02/215205&amp;from=rss</link>
+<description>Rolan writes "News.com is reporting that an Appeals court has partially overturned the lower court's decision in favor of Eolas. From the story: "Microsoft on Wednesday claimed a victory in a high-profile Web browser patent dispute, as an appeals court partially reversed a lower court decision that left the software giant exposed to $565 million in damages." The article does not say what part was or was not overturned." Reader shogusumi adds a link to the ruling itself (PDF), supplies a link handy for catching up with the claims at issue here, and writes "As a refresher, this is the case that claims that the functionality provided by IE through the use of embed, applet, and object tags violates a patent owned by Eolas and the University of California."</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2005-03-02T22:18:00+00:00</dc:date>
+<dc:subject>doj</dc:subject>
+<slash:department>litigious-society</slash:department>
+<slash:section>yro</slash:section>
+<slash:hitparade>78,75,51,33,10,8,5</slash:hitparade>
+<slash:comments>78</slash:comments>
+</item>
+
+<item rdf:about="http://linux.slashdot.org/article.pl?sid=05/03/02/201216&amp;from=rss">
+<title>LiveCD Lets You Try Out Project Looking Glass</title>
+<link>http://linux.slashdot.org/article.pl?sid=05/03/02/201216&amp;from=rss</link>
+<description>remember_beos writes "Sun created Project Looking Glass (LG3D) as a 'proof of concept' not long ago. It is an environment for Linux, like KDE or Gnome, but with some really great 3D functionality. More than just eye-candy, LG3D provides functional use of an extra spatial dimension on your desktop. Now there is a LiveCD for us all to try it out."</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2005-03-02T21:36:00+00:00</dc:date>
+<dc:subject>gui</dc:subject>
+<slash:department>slick-interface</slash:department>
+<slash:section>linux</slash:section>
+<slash:hitparade>275,264,195,111,43,28,21</slash:hitparade>
+<slash:comments>275</slash:comments>
+</item>
+
+<item rdf:about="http://ask.slashdot.org/article.pl?sid=05/02/23/2012230&amp;from=rss">
+<title>When Should You Quit Your Job?</title>
+<link>http://ask.slashdot.org/article.pl?sid=05/02/23/2012230&amp;from=rss</link>
+<description>Moe Taxes asks: "I want to hear from Slashdot readers who have quit jobs or turned down offered jobs because it was not what they wanted to do. Why did you do it? Was it ethics, ambition, pride, or disgust? And how did it turn out? Did you get to do what you wanted to do, are you still looking, or did you come back begging for another chance? I have always written software for windows, but never with Microsoft tools. I don't feel like I have enough control over the product when I use Microsoft programming environments. My company was bought recently, and is in the process of becoming a C# VisualStudio shop. I said thanks, but no thanks and left. Am I a fool for giving up steady work and good pay?"</description>
+<dc:creator>Cliff</dc:creator>
+<dc:date>2005-03-02T20:51:00+00:00</dc:date>
+<dc:subject>biz</dc:subject>
+<slash:department>how-much-is-too-much</slash:department>
+<slash:section>askslashdot</slash:section>
+<slash:hitparade>1001,984,731,437,126,63,52</slash:hitparade>
+<slash:comments>1001</slash:comments>
+</item>
+
+<item rdf:about="http://books.slashdot.org/article.pl?sid=05/03/02/1854241&amp;from=rss">
+<title>Integrating Agile Development</title>
+<link>http://books.slashdot.org/article.pl?sid=05/03/02/1854241&amp;from=rss</link>
+<description>James Edward Gray II writes "If you've ever wanted to know more about the agile programming methodologies, Integrating Agile Development in the Real World is a fine place to look for the answers to your questions. Various agile methodologies are explained, compared, and contrasted within. A good look is taken at how they work, their strengths and weaknesses, and how they compare to the more traditional approaches of software development. This proves to be a strong introduction and overview to agile programming practices." Read on for the rest of Gray's review.</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2005-03-02T20:04:00+00:00</dc:date>
+<dc:subject>programming</dc:subject>
+<slash:department>smoothly-smooshing</slash:department>
+<slash:section>books</slash:section>
+<slash:hitparade>96,84,55,37,11,9,4</slash:hitparade>
+<slash:comments>96</slash:comments>
+</item>
+
+<textinput rdf:about="http://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>http://slashdot.org/search.pl</link>
+</textinput>
+
+</rdf:RDF>
